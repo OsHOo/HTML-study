@@ -1,0 +1,79 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <style>
+        #header {
+            background-color: yellow;
+            text-align: center;
+            border: 1px solid #000000;
+            width: 500px;
+        }
+        #wrap{
+            background-color:#1586b1;
+            width:500px;
+            border:2px solid #ff6a00;
+            text-align:center;
+            overflow:hidden;
+        }
+        #content{
+            width:300px;
+            float:left;
+            border:2px solid #ff0000;
+        }
+        #banner{
+            width:192px;
+            height:inherit;
+            float:left;
+            border:2px solid #ff0000;
+        }
+        #footer{
+            clear:both;
+            background-color:yellow;
+            border:3px solid #ff6a00;
+            text-align:center;
+            width:500px;
+        }
+        .menu1, .menu3, .menu5{
+            font-size:20px;
+        }
+        .menu1{
+            color:#132da7;
+        }
+        div li {background-color:yellow;}
+        div > h1 {font-size:24px;}
+        p~#footer {font-size:5px;border:3px dotted #1586b1;}
+        p + #header {
+            font-size: 5px;
+            border: 3px dotted #1586b1;
+        }
+    </style>
+</head>
+<body>
+    <p><h1>The Title</h1></p>
+    <div id="header">
+        <h1>HEADER</h1>
+    </div>
+    <div id="wrap">
+        <div id="content">
+            <h1>CONTENT</h1>
+            <ul>
+                <li class="menu1">menu1</li>
+                <li class="menu2">menu2</li>
+                <li class="menu3">menu3</li>
+                <li class="menu4">menu4</li>
+                <li class="menu5">menu5</li>
+            </ul>
+        </div>
+        <div id="banner">
+            <h1>BANNER</h1>
+            <img src="img/005.png" width="150" alt="고양이 사진" />
+        </div>
+    </div>
+    <div id="footer">
+        <h1>FOOTER</h1>
+    </div>
+</body>
+</html>
