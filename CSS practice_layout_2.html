@@ -1,0 +1,110 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <style>
+        span {
+            font-weight:bold;
+            padding:15px 40px;
+            float:left;
+        }
+        #section .center_space > p{
+            padding:20px;
+        }
+        #section .center_space .title{
+            font-weight:bold;
+            font-size:2em;
+        }
+        #header, #section, #footer {
+            width:1000px;
+            overflow:hidden;
+            margin:0 auto;
+        }
+
+        #header > div {
+            background-color: #8f8888;
+            height: 150px;
+        }
+
+        #section > div {
+            background-color: #8f8888;
+            height: 300px;
+        }
+
+        #footer > div {
+            background-color: #8f8888;
+            height: 150px;
+        }
+        .left_space, .center_space, .right_space {
+            border: 1px solid #000000;
+        }
+
+        .left_space {
+            width:150px;
+            float:left;
+        }
+
+        .center_space {
+            width:694px;
+            float:left;
+        }
+
+        .right_space {
+            width:150px;
+            float:left;
+        }
+
+        #header .left_space, #footer .right_space {
+            border-radius: 30px 0;
+        }
+        #header .right_space, #footer .left_space {
+            border-radius: 0 30px;
+        }
+        #header .center_space {
+            border-radius:0 0 30px 30px;
+        }
+        #section .left_space {
+            border-radius:0 30px 30px 0;
+        }
+        #section .center_space{
+            border-radius:30px;
+        }
+        #section .right_space {
+            border-radius:30px 0 0 30px;
+        }
+        #footer .center_space{
+            border-radius:30px 30px 0 0;
+        }
+    </style>
+</head>
+<body>
+
+    <div id="header">
+        <div class="left_space"></div>
+        <div class="center_space"></div>
+        <div class="right_space"></div>
+    </div>
+    
+    <div id="section">
+        <div class="left_space"></div>
+        <div class="center_space">
+            <span>menu1</span>
+            <span>menu2</span>
+            <span>menu3</span>
+            <span>menu4</span><br />
+            <p class="title">하이서울브랜드</p>
+            <p class="story">서울시와 블라블라~~~~ 입니다.</p>
+        </div>
+        <div class="right_space"></div>
+    </div>
+
+    <div id="footer">
+        <div class="left_space"></div>
+        <div class="center_space"></div>
+        <div class="right_space"></div>
+    </div>
+
+</body>
+</html>
