@@ -1,0 +1,99 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <style>
+        #nav{
+            margin:0 auto;
+            border:1px solid #cccccc;
+            overflow:hidden;
+            width:800px;
+        }
+
+        #nav div{
+            width:150px;
+            height:100px;
+            line-height:100px;
+            float:left;
+            text-align:center;
+            font-size:1.5em;
+            border-top:1px solid #cccccc;
+            border-bottom:1px solid #cccccc;
+            margin:5px;
+        }
+        #nav div a {
+            text-decoration:none;
+            color:#282828;
+        }
+        #let {
+            border:1px solid #cccccc;
+            margin:10px auto;
+        }
+        div p:nth-child(1)
+        {
+            text-align:center;
+            font-weight:bold;
+            font-size:4em;
+            text-decoration:underline;
+            text-decoration-color:deeppink;
+        }
+        div p:nth-child(4)
+        {
+            text-align:left;
+            font-weight:bold;
+            text-decoration:dashed;
+        }
+        #let a {
+            font-size: 3em;
+            font-weight: bold;
+        }
+      
+        #let p:last-child {
+            text-align: center;
+        }
+        #red {
+            width:400px;
+            height:400px;
+            position:relative;
+            top:0px;
+            left:500px;
+            background-color:red;
+        }
+        #yellow {
+            margin:0 auto;
+            width:1000px;
+            height:100px;
+            position:absolute;
+            top:220px;
+            left:450px;
+            background-color:yellow;
+        }
+        #yellow:hover {
+            position:fixed;
+        }
+    </style>
+</head>
+<body>
+    <div id="nav">
+        <div><a href="#">menu1</a></div>
+        <div><a href="#">menu2</a></div>
+        <div><a href="#">menu3</a></div>
+        <div><a href="#">menu4</a></div>
+        <div><a href="#">menu5</a></div>
+    </div>
+
+    <div id="let">
+        <p>I LOVE YOU</p>
+        <p>To./</p>
+        <p>It is really easy.</p>
+        <p>From.SBA</p>
+        <hr />
+        <p><a href="#none">서울산업진흥원</a></p>
+
+    </div>
+    <div id="red"></div>
+    <div id="yellow"></div>
+</body>
+</html>
